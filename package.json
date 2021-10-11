@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "dependencies": {
+    "axios": "^0.22.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.9.0"
+  },
+  "scripts": {
+    "prebuild": "echo \"pre-build\"",
+    "build": "webpack --config=webpack.config.js",
+    "postbuild": "echo \"post-build\""
+  },
+  "name": "godigital-react-assignment-master",
+  "description": "![Assignment screenshot image](screenshot.png \"Screenshot\")",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "author": "",
+  "license": "ISC"
+}

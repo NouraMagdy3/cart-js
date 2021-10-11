@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container p-5 m-5 border-1 shadow">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="product d-flex" style="margin-bottom: 30px;">
+                    <div class="details">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="bg-light shadow p-4 mb-4">
+                    <div id="cart-box">
+                        <h4 class="text-warning mb-3">Cart</h4>
+                    </div>
+                    <div class="totPrice">
+                        <div class="priceTot d-flex border-top pt-2">
+                            <p class="flex-grow-1">Total</p>
+                            <span id="totalPrice" class="fw-bold me-4">0$</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/cart.js"></script>
+</body>
+
+</html>
